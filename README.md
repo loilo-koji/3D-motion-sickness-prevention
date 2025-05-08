@@ -49,7 +49,7 @@
 このアプリケーションはGitHub Pagesでホストされており、以下のURLからアクセスできます：
 
 ```
-https://yourusername.github.io/3D-motion-sickness-prevention/
+https://loilo-koji.github.io/3D-motion-sickness-prevention/
 ```
 
 （注：実際のURLは、あなたのGitHubユーザー名に基づいて異なります）
