@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>3D酔い防止 - 100Hz純音アプリ</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>3D酔い防止のための純音アプリ</h1>
+    <p class="description">100Hzの純音を1分間聞くことで、しばらくの間3D酔いを防止する効果があります。</p>
+    
+    <div class="control-panel">
+      <div class="button-group">
+        <button id="playButton" class="btn play">▶ 再生</button>
+        <button id="stopButton" class="btn stop" disabled>■ 停止</button>
+      </div>
+      
+      <div class="volume-control">
+        <label for="volumeSlider">音量: <span id="volumeValue">50</span>%</label>
+        <input type="range" id="volumeSlider" min="0" max="100" value="50">
+      </div>
+      
+      <div class="interval-control">
+        <label for="intervalInput">再生間隔 (分):</label>
+        <input type="number" id="intervalInput" min="1" max="120" value="15">
+      </div>
+      
+      <div class="auto-play-control">
+        <label for="autoPlayToggle">
+          <input type="checkbox" id="autoPlayToggle" checked>
+          <span>自動再生モード</span>
+        </label>
+      </div>
+    </div>
+    
+    <div class="status-panel">
+      <div id="timer" class="timer">待機中</div>
+      <div id="nextPlay" class="next-play"></div>
+    </div>
+    
+    <div class="info-panel">
+      <h2>使用方法</h2>
+      <ol>
+        <li>「再生」ボタンを押すと100Hzの純音が1分間再生されます。</li>
+        <li>自動再生モードをオンにすると、設定した間隔（デフォルト15分）で純音が自動的に再生されます。</li>
+        <li>音量スライダーで音の大きさを調整できます。</li>
+      </ol>
+      <h2>科学的根拠</h2>
+      <p>研究により、100Hzの純音を1分間聞くことで、しばらくの間3D酔いを軽減する効果があることが示されています。この効果は一時的なものですので、症状に応じて定期的に純音を聞くことをお勧めします。</p>
+    </div>
+  </div>
+  
+  <script src="js/script.js"></script>
+</body>
+</html>

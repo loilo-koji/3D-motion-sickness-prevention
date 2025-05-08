@@ -1,0 +1,23 @@
+## Memory Bank Structure
+The Memory Bank consists of one main file:
+
+1. `projectDefinition.md`
+   - Project purpose and requirements
+   - Product background and problems being solved
+   - System design and architecture
+   - Technologies used, development environment, and constraints
+   - **Project file structure and overview**
+     - Main directories and their roles
+     - Important files and their functions
+     - Relationships between files
+     - Overall code organization
+
+## Startup Rules
+- Always read `projectDefinition.md` before taking any action.
+
+## Post action rules
+- 必要な場合は、`projectDefinition.md`を更新すること。
+
+## 復唱
+この.clinerulesを読んだら、「clinerulesを読みました」と返事してください。
+projectDefinition.mdを読んだら、「projectDefinition.mdを読みました」と返事してください。
